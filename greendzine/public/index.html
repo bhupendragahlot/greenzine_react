@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <title>GREENDZINE</title>
+
+
+
+    <style>
+      /* Basic CSS for layout */
+      body {
+          font-family: Arial, sans-serif;
+          margin: 0;
+          padding: 0;
+          background-color: #000000; /* Black background */
+          color: #ffffff; /* White text */
+      }
+      .container-fluid {
+          max-width: 50%; /* Adjusted max-width */
+          margin: 50px auto;
+          padding: 20px;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+          background-color: #292929; /* Dark input field background */
+          box-shadow: 0px 0px 15px 4px rgb(57, 57, 57); /* Shadow effect */
+      }
+      h2 {
+          text-align: center;
+          color: #ffffff; /* White text */
+      }
+      form {
+          margin-top: 20px;
+          height: 200px; /* Adjusted form height */
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+      }
+      input[type="text"],
+      input[type="password"],
+      select {
+          width: 100%;
+          padding: 10px;
+          margin: 5px 0;
+          border: none;
+          border-radius: 5px;
+          background-color: #292929; /* Dark input field background */
+          color: #ffffff; /* White text */
+          box-shadow: 0 0 5px rgba(255, 255, 255, 0.5); /* White shadow effect */
+      }
+      button {
+          width: 50%;
+          margin-left: 25%; /* Center the button */
+          padding: 10px;
+          background-color: #008000b1; /* Green button */
+          color: white;
+          border: none;
+          border-radius: 20px;
+          cursor: pointer;
+          box-shadow: 1px -24px 18px -25px rgba(0,0,0,1) inset;
+          transition: background-color 0.3s ease; /* Smooth transition */
+      }
+      button:hover {
+          background-color: #006400; /* Darker green on hover */
+      }
+      table {
+          width: 100%;
+          border-collapse: collapse;
+          margin-top: 20px;
+      }
+      th, td {
+          padding: 8px;
+          text-align: left;
+          border-bottom: 1px solid #ddd;
+      }
+      th {
+          background-color: #008000; /* Green header background */
+          color: white;
+      }
+      tbody tr:nth-child(even) {
+          background-color: #004d00; /* Dark green alternate row background */
+      }
+      .logo {
+          text-align: center;
+          margin-bottom: 20px;
+          animation: slideInFromTop 1s ease-in-out; /* Slide-in animation */
+      }
+      @keyframes slideInFromTop {
+          from {
+              transform: translateY(-50%);
+              opacity: 0;
+          }
+          to {
+              transform: translateY(0);
+              opacity: 1;
+          }
+      }
+
+      /* Media queries for mobile */
+      @media (max-width: 360px) {
+          .container-fluid {
+              padding: 10px; /* Adjusted padding */
+          }
+          input[type="text"],
+          input[type="password"],
+          select,
+          button {
+              width: 100%;
+              margin-left: 0; /* Reset margin for button */
+          }
+          button {
+              margin-top: 20px; /* Adjusted margin for button */
+          }
+      }
+      .container-fluid form input {
+          width: 98%; /* Adjusted width for input fields */
+      }
+      .forgot-password {
+          text-align: center;
+          margin-top: 10px;
+      }
+      .forgot-password a {
+          color: #ffffff; /* White text */
+          text-decoration: none;
+      }
+      .forgot-password a:hover {
+          text-decoration: underline;
+      }
+  </style>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root">
+
+      
+    </div>
+    
+  </body>
+</html>
+
+

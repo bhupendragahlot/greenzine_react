@@ -1,0 +1,27 @@
+
+.login-container {
+  text-align: center;
+}
+
+.login-form {
+  margin-top: 20px;
+}
+
+input[type='text'],
+input[type='password'],
+button {
+  margin: 5px;
+  padding: 10px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.error-message {
+  color: red;
+}
